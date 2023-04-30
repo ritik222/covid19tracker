@@ -1,0 +1,97 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Card styles */
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    list-style: none;
+    margin-top: 40px;
+  }
+  
+  .card {
+    background-color: #ff6f69;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .card:nth-child(2) {
+    background-color: #00b894;
+  }
+  
+  .card:nth-child(3) {
+    background-color: #0984e3;
+  }
+  
+  .card:nth-child(4) {
+    background-color: #6c5ce7;
+  }
+  
+  .card:nth-child(5) {
+    background-color: #fdcb6e;
+  }
+  
+  .card__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .class-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card__inner span {
+    font-weight: bold;
+  }
+  
+  .card__total {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .card__small {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  body {
+    background-color: #222;
+  }
+  
